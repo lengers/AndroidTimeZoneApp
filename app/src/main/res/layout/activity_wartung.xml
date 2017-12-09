@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.octavian.timezones.WartungActivity">
+
+    <Button
+        android:id="@+id/hongkongMinusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/hongkongTextView"
+        app:layout_constraintTop_toTopOf="@+id/hongkongTextView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="Hongkong"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/hongkongPlusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+1"
+        app:layout_constraintStart_toEndOf="@+id/hongkongTextView"
+        app:layout_constraintTop_toTopOf="@+id/hongkongTextView" />
+
+    <TextView
+        android:id="@+id/hongkongTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="00:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/sydneyMinusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/sydneyTextView"
+        app:layout_constraintTop_toTopOf="@+id/sydneyTextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="Sydney"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/sydneyPlusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+1"
+        app:layout_constraintStart_toEndOf="@+id/sydneyTextView"
+        app:layout_constraintTop_toTopOf="@+id/sydneyTextView" />
+
+    <TextView
+        android:id="@+id/sydneyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="00:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/moskauMinusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/moskauTextView"
+        app:layout_constraintTop_toTopOf="@+id/moskauTextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="Moskau"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/moskauPlusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+1"
+        app:layout_constraintStart_toEndOf="@+id/moskauTextView"
+        app:layout_constraintTop_toTopOf="@+id/moskauTextView" />
+
+    <TextView
+        android:id="@+id/moskauTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="00:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/newYorkMinusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/newYorkTextView"
+        app:layout_constraintTop_toTopOf="@+id/newYorkTextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:text="New York"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/newYorkPlusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+1"
+        app:layout_constraintStart_toEndOf="@+id/newYorkTextView"
+        app:layout_constraintTop_toTopOf="@+id/newYorkTextView" />
+
+    <TextView
+        android:id="@+id/newYorkTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="00:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/londonMinusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="-1"
+        app:layout_constraintEnd_toStartOf="@+id/londonTextView"
+        app:layout_constraintTop_toTopOf="@+id/londonTextView" />
+
+    <Button
+        android:id="@+id/londonPlusButton"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="+1"
+        app:layout_constraintStart_toEndOf="@+id/londonTextView"
+        app:layout_constraintTop_toTopOf="@+id/londonTextView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="London"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/londonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="00:00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Fertig"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
