@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 TimeZone tz = TimeZone.getTimeZone("London");
                 Calendar cal = Calendar.getInstance(tz);
-                tv.setText((cal.get(Calendar.HOUR_OF_DAY) +london) + ":" + cal.get(Calendar.MINUTE));
+                tv.setText(String.format("%02d", ((cal.get(Calendar.HOUR_OF_DAY) + london) % 24)) + ":" + String.format("%02d", cal.get(Calendar.MINUTE)));
             }
         });
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 TimeZone tz = TimeZone.getTimeZone("Australia/Sydney");
                 Calendar cal = Calendar.getInstance(tz);
-                tv.setText((cal.get(Calendar.HOUR_OF_DAY) +sydney) + ":" + cal.get(Calendar.MINUTE));
+                tv.setText(String.format("%02d", ((cal.get(Calendar.HOUR_OF_DAY) + sydney) % 24)) + ":" + String.format("%02d", cal.get(Calendar.MINUTE)));
             }
         });
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 TimeZone tz = TimeZone.getTimeZone("Hongkong");
                 Calendar cal = Calendar.getInstance(tz);
-                tv.setText((cal.get(Calendar.HOUR_OF_DAY) +hongkong) + ":" + cal.get(Calendar.MINUTE));
+                tv.setText(String.format("%02d", ((cal.get(Calendar.HOUR_OF_DAY) + hongkong) % 24)) + ":" + String.format("%02d", cal.get(Calendar.MINUTE)));
             }
         });
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 TimeZone tz = TimeZone.getTimeZone("America/New_York");
                 Calendar cal = Calendar.getInstance(tz);
-                tv.setText((cal.get(Calendar.HOUR_OF_DAY) +ny) + ":" + cal.get(Calendar.MINUTE));
+                tv.setText(String.format("%02d", ((cal.get(Calendar.HOUR_OF_DAY) + ny) % 24)) + ":" + String.format("%02d", cal.get(Calendar.MINUTE)));
             }
         });
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 TimeZone tz = TimeZone.getTimeZone("Europe/Moscow");
                 Calendar cal = Calendar.getInstance(tz);
-                tv.setText((cal.get(Calendar.HOUR_OF_DAY) +moscow) + ":" + cal.get(Calendar.MINUTE));
+                tv.setText(String.format("%02d", ((cal.get(Calendar.HOUR_OF_DAY) + moscow) % 24)) + ":" + String.format("%02d", cal.get(Calendar.MINUTE)));
             }
         });
 
